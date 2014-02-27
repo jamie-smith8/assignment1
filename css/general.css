@@ -41,7 +41,6 @@ header {
     background-size: 30rem;
     background-position: center center;
     background-repeat: no-repeat;
-    
     overflow: hidden;
     margin-right: -2rem;
     margin-left: -2rem;
@@ -127,16 +126,16 @@ dl + p   {
 
 h2   {   
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
-    color: #FF6633; 
-}
-
-h2 {
-    background-image: url(../images/bannerbar.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 40rem;
-    margin: 0rem -2rem;
-    height: 3rem;
+    color: white;
+    margin: 2.5rem -.5rem 0;
+    opacity: .7;
+    border-radius: .4rem;
+    text-indent: 8px;
+    font-weight: normal;
+    text-shadow: .15rem .15rem .06em rgba(0, 0, 200, .3);
+    
+    
+    
 }
 
 p   {
@@ -164,14 +163,27 @@ summary {
 
 
 
-
 footer  {
       background-image: url(../images/wood.jpg);
     background-size: 10rem;
-    
     overflow: hidden;
-    margin-right: -2rem;
-    margin-left: -2rem;
-    height: 3rem
+    margin: -1rem -2rem;
+    height: 4rem
 }
+
+footer p    {
+    font-family:  Century Gothic, Arial Rounded MT, sans-serif;   
+    font-size: 1rem;
+    font-weight: normal;
+    margin-left: 1rem;
+    color: cyan;
+    text-shadow: .15rem .15rem .09em rgba(0, 0, 0, 1);
+}
+
+footer a    {
+    color: orange;   
+}
+
+
+
 
