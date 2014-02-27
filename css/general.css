@@ -58,19 +58,14 @@ h1 {
     margin: 4rem 0;
     color: orange;
     text-shadow: .15rem .15rem .05em rgba(60, 0, 0, .4);
+    text-decoration: underline;
 }
-
-h1 sup {
-    color: sienna;
-    font-size: 1.4rem;
-    text-shadow: .15rem .15rem .05em rgba(40, 0, 0, .1);
     
-    
-}
-
 figure {
     margin: 0 auto 1.5rem;
     width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .dropcap:first-letter {
@@ -86,18 +81,29 @@ figure {
 
     p   {
     font-family: Helvetica, sans-serif;
-     
+     text-indent: 15px;
 }
     
 figure + p  {
     font-size: 1.2rem;
+    text-indent: -1px;
 }
 
 .subheader   {
     font-size: 1.5rem;
     background-color: orange;
     color: white;
-    margin-right: -5rem; /*HELP*/
+}
+
+details  {
+    font-weight: bold;
+}
+
+h5  {
+    font-size: 1.2rem;
+    color: sienna;
+    text-shadow: .15rem .15rem .05em rgba(40, 0, 0, .1);
+    margin-left: 1rem;
 }
 
 footer  {
@@ -106,4 +112,14 @@ footer  {
     margin-bottom: 1.5rem;
     margin-right: -2rem;
     margin-left: -2rem;
+}
+
+footer p {
+    font-weight: bold;
+    color: sienna
+}
+
+a   {
+    font-weight: normal;
+    color: sienna;
 }
