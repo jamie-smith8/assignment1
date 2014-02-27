@@ -17,109 +17,98 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    backgroundcolor: orange;
     font-size: 100%;
     font-family: Georgia, Times, sans-serif;
+    
+    background-image: url(../images/fishbowl.jpg);
+    background-size: 1.3rem;
 }
 
-body {
-    background-size: 1.5rem; 
+hr  {
+    border: solid 16px #33CCFF;
+    margin-top: -.5rem;
+    margin-bottom: -.1rem    
+}
+
+body { 
     margin-right: 2rem;
     margin-left: 2rem;
+    background-color: #33CCFF;
 }
 
 header {
+    background-image: url(../images/bannerbar.jpg);
+    background-size: 30rem;
+    background-position:center;
+    
     overflow: hidden;
-    background-color: orange;
-    margin-top: 1.5rem;
     margin-right: -2rem;
     margin-left: -2rem;
+    height: 5rem
 }
 
 .logo {
-    height: 3rem;
+    height: 6rem;
     width: auto;
     margin-right: 1rem;
     float: right;
+    margin: -6.3rem .5rem;
 }
 
 article {
     margin: 0;
     padding: 0 5%;
     overflow: hidden;
-    background-color: white;
 }
 
-h1 {
-    font-family: Georgia, Times, serif;
+h1  {
+    font-family: Century Gothic, Arial Rounded MT, sans-serif; 
     font-weight: normal;
-    font-size: 4rem;
-    line-height: 4rem;
-    margin: 4rem 0;
-    color: orange;
-    text-shadow: .15rem .15rem .05em rgba(60, 0, 0, .4);
-    text-decoration: underline;
-}
-    
-figure {
-    margin: 0 auto 1.5rem;
-    width: 100%;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #FF6633;
+    text-shadow: 0rem 0rem .05em rgba(150, 0, 0, 1);
 }
 
-.dropcap:first-letter {
-    font-family: Georgia, Times serif;
-    font-size: 4.5rem;
-    font-weight: bold;
-    float: left;
-    margin: -.6rem 0.5rem -.7rem 0;
-    color: orange;
-    text-shadow: .15rem .15rem .05em rgba(60, 0, 0, .4);
-    
+img     {
+    width: 100% 
 }
 
-    p   {
-    font-family: Helvetica, sans-serif;
-     text-indent: 15px;
-}
-    
-figure + p  {
-    font-size: 1.2rem;
-    text-indent: -1px;
+
+dl  {
+    line-height: 3rem;
+    text-align:center;
 }
 
-.subheader   {
-    font-size: 1.5rem;
-    background-color: orange;
-    color: white;
-}
-
-details  {
-    font-weight: bold;
+.one  {
+    background-color: white;
+    margin-bottom: 1rem;
+    border-radius: 1.25rem;
 }
 
 h5  {
-    font-size: 1.2rem;
-    color: sienna;
-    text-shadow: .15rem .15rem .05em rgba(40, 0, 0, .1);
+    font-family: Century Gothic, Arial Rounded MT, sans-serif;
+    font-size: 1.3rem;
+    font-weight: normal;
     margin-left: 1rem;
+    color: cyan;
+    text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 1);
+    
 }
+
+
+
+
+
+
 
 footer  {
+      background-image: url(../images/wood.jpg);
+    background-size: 10rem;
+    
     overflow: hidden;
-    background-color: orange;
-    margin-bottom: 1.5rem;
     margin-right: -2rem;
     margin-left: -2rem;
+    height: 3rem
 }
 
-footer p {
-    font-weight: bold;
-    color: sienna
-}
-
-a   {
-    font-weight: normal;
-    color: sienna;
-}
