@@ -27,7 +27,7 @@ html {
 hr  {
     border: solid 16px #33CCFF;
     margin-top: -.5rem;
-    margin-bottom: -.1rem    
+    margin-bottom: -.1rem
 }
 
 body { 
@@ -39,7 +39,8 @@ body {
 header {
     background-image: url(../images/bannerbar.jpg);
     background-size: 30rem;
-    background-position:center;
+    background-position: center center;
+    background-repeat: no-repeat;
     
     overflow: hidden;
     margin-right: -2rem;
@@ -52,7 +53,7 @@ header {
     width: auto;
     margin-right: 1rem;
     float: right;
-    margin: -6.3rem .5rem;
+    margin: -5.5rem .5rem;
 }
 
 article {
@@ -70,32 +71,94 @@ h1  {
     text-shadow: 0rem 0rem .05em rgba(150, 0, 0, 1);
 }
 
-img     {
+img     { 
     width: 100% 
 }
 
 
 dl  {
+    font-family: Century Gothic, Arial Rounded MT, sans-serif;
     line-height: 3rem;
     text-align:center;
+    color: #663300;
+    margin: 1.6rem 0rem;
+    color: black;
+}
+
+dt  {
+    /*HELP*/
 }
 
 .one  {
     background-color: white;
-    margin-bottom: 1rem;
-    border-radius: 1.25rem;
+    margin: 1rem 1.4rem;
+    border-radius: .66rem;
+    height: 2rem;
+    opacity: .4;
+    box-shadow: 0rem 0rem .3rem .2rem rgba(0, 100, 150, .2); 
 }
 
-h5  {
+h4  {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
     font-size: 1.3rem;
     font-weight: normal;
     margin-left: 1rem;
     color: cyan;
-    text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 1);
-    
+    text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 1);    
 }
 
+dl + p   {
+    font-family: Century Gothic, Arial Rounded MT, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2.6rem;
+    text-indent: -1px;
+}
+ 
+.dropcap:first-letter {
+    font-family: Century Gothic, Arial Rounded MT, sans-serif; 
+    font-weight: normal;
+    font-size: 4rem;
+    text-align: center;
+    color: #FF6633;
+    text-shadow: 0rem 0rem .03em rgba(150, 0, 0, 1);
+    float: left;
+    margin: -.6rem .3rem -1.1rem 0;  
+}
+
+h2   {   
+    font-family: Century Gothic, Arial Rounded MT, sans-serif;
+    color: #FF6633; 
+}
+
+h2 {
+    background-image: url(../images/bannerbar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40rem;
+    margin: 0rem -2rem;
+    height: 3rem;
+}
+
+p   {
+    font-family: Goudy Old Style, Palatino, Garamond, serif;
+    font-weight: bold;
+    text-indent: 8px;
+}
+
+.pdrop:first-letter {
+        font-family: Century Gothic, Arial Rounded MT, sans-serif;
+        font-weight: bolder;
+    font-size: 1.1rem;
+    margin-right: 1px;
+    opacity: .7;
+}
+
+summary {
+    margin-bottom: 1rem;
+    font-family: Century Gothic, Arial Rounded MT, sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
 
 
 
