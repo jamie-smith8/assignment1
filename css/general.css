@@ -89,6 +89,10 @@ img     {
     box-shadow: 0rem 0rem .3rem .2rem rgba(0, 100, 150, .2);
 }
 
+img + .one {
+    margin-top: 2rem;
+}
+
 h4  {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
     font-size: 1.3rem;
@@ -102,7 +106,7 @@ h6 + p   {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
     font-weight: bold;
     text-indent: -1px;
-    margin-top: 3rem;
+    margin-top: 2.4rem;
 }
  
 .dropcap:first-letter {
