@@ -98,11 +98,11 @@ h4  {
     text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 1);    
 }
 
-dl + p   {
+h6 + p   {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
     font-weight: bold;
-    margin-bottom: 2.6rem;
     text-indent: -1px;
+    margin-top: 3rem;
 }
  
 .dropcap:first-letter {
@@ -148,9 +148,35 @@ summary {
     font-weight: bold;
 }
    
-li  {   
+blockquote p {
     font-size: .9rem;
+}
+
+blockquote span {
     font-weight: bold;
+    float: right;
+    font-size: 1.2rem;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 6em;
+    opacity: .5;
+    float: left;
+    margin-left: -3.4rem;
+    margin-top: -.5rem;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 3rem;
+    position: absolute;
+    opacity: .5;
+    margin: -1rem 6.3rem 3rem;
+}
+
+blockquote + p {
+    margin-top: 2.6rem;   
 }
 
 figcaption  {
