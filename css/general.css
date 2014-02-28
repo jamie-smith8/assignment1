@@ -56,7 +56,7 @@ header {
 }
 
 article {
-    margin: 0;
+    margin-bottom: rem;
     padding: 0 5%;
     overflow: hidden;
 }
@@ -74,21 +74,16 @@ img     {
     width: 100% 
 }
 
-
 dl  {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
-    line-height: 3rem;
-    text-align:center;
+    line-height: 2rem;
     color: #663300;
     margin: 1.6rem 0rem;
     color: black;
 }
 
-dt  {
-    /*HELP*/
-}
-
 .one  {
+    text-align: center;
     background-color: white;
     margin: 1rem 1.4rem;
     border-radius: .66rem;
@@ -101,7 +96,7 @@ h4  {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
     font-size: 1.3rem;
     font-weight: normal;
-    margin-left: 1rem;
+    margin-left: 2rem;
     color: cyan;
     text-shadow: .15rem .15rem .05em rgba(0, 0, 0, 1);    
 }
@@ -132,10 +127,7 @@ h2   {
     border-radius: .4rem;
     text-indent: 8px;
     font-weight: normal;
-    text-shadow: .15rem .15rem .06em rgba(0, 0, 200, .3);
-    
-    
-    
+    text-shadow: .15rem .15rem .06em rgba(0, 0, 200, .3);   
 }
 
 p   {
@@ -158,10 +150,18 @@ summary {
     font-size: .9rem;
     font-weight: bold;
 }
+   
+li  {   
+    font-size: .9rem;
+    font-weight: bold;
+}
 
-
-
-
+figcaption  {
+    font-family: Century Gothic, Arial Rounded MT, sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+    text-align: center;
+}
 
 footer  {
       background-image: url(../images/wood.jpg);
@@ -180,10 +180,34 @@ footer p    {
     text-shadow: .15rem .15rem .09em rgba(0, 0, 0, 1);
 }
 
+.purchase {
+    margin: 2rem -1rem;
+    overflow: hidden;
+    
+    background-image: url(../images/purchase.jpg);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position: center center;
+    
+    box-shadow: .0rem .0rem .6rem .2rem rgba(255, 255, 255, .6);
+    border: solid 3px #FF6633;
+}
+
+h3{
+    font-family:  Century Gothic, Arial Rounded MT, sans-serif;
+    margin: 4rem 0;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(255, 102, 51, .5);
+}
+
+h3 a    {
+    color: black;
+    text-decoration: none;
+}
+
 footer a    {
     color: orange;   
 }
-
-
-
-
