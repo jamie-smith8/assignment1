@@ -74,22 +74,19 @@ img     {
     width: 100% 
 }
 
-dl  {
+.one  {
     font-family: Century Gothic, Arial Rounded MT, sans-serif;
     line-height: 2rem;
-    color: #663300;
-    margin: 1.6rem 0rem;
     color: black;
-}
-
-.one  {
+    font-size: .9rem;
+    font-weight: normal;
     text-align: center;
     background-color: white;
     margin: 1rem 1.4rem;
     border-radius: .66rem;
     height: 2rem;
     opacity: .4;
-    box-shadow: 0rem 0rem .3rem .2rem rgba(0, 100, 150, .2); 
+    box-shadow: 0rem 0rem .3rem .2rem rgba(0, 100, 150, .2);
 }
 
 h4  {
